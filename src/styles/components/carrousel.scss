@@ -1,0 +1,63 @@
+.carousel-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+.carousel-image {
+    width: 1240px;
+    height: 415px;
+    border-radius: 25px;
+    object-fit: cover;
+    object-position: center;
+  }
+button{
+    background: transparent;
+    border: none;
+    cursor: pointer;
+  }
+button.prevarrow{  
+    position: absolute;    
+    left: 24px;
+   } 
+
+button.nextarrow{
+    position: absolute;
+    left: 1176px;
+    }
+
+.photo-counter{
+  position: absolute;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 142.6%; 
+  color: white;
+  top: 360px;
+}
+  
+
+@media screen and (max-width: 400px)
+{   
+
+.carousel-image{
+  width: 335px;
+  border-radius: 10px;
+  height: 255px;
+}
+button img{
+  width: 24px;
+  height: 24px;
+}
+button.prevarrow{  
+  position: absolute;    
+  left: 10px;
+} 
+button.nextarrow{
+  left: 301px;
+}
+.photo-counter{
+  top: 230px;
+  font-size: 12px;
+}
+}

@@ -1,0 +1,32 @@
+.rating-container {
+  display: flex;
+  align-items: center;
+  width: 200px;
+  margin-bottom: 30px;
+}
+
+.rating-stars {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 12px;
+  width: 100%;
+}
+
+.star-icon {
+  width: 24px;
+  height: 24px;
+}
+
+@media screen and (max-width: 400px) {
+  .rating-container {
+    width: 98px;
+  }
+  .rating-stars{
+    padding-left: 0;
+  }
+  .star-icon {
+    width: 13px;
+    height: 13px;
+  }
+}
+

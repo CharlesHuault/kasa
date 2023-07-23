@@ -1,0 +1,39 @@
+.data-container {
+    display: flex;
+    position: relative;
+    width: 1240px;
+    margin-top: 50px;
+    justify-content: center;
+  }
+
+  .ficheinfos {
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+  }
+
+  .ratings-host{
+    display: flex;
+    flex-direction: column-reverse;
+    }
+
+  @media screen and (max-width: 400px)
+    {   
+    .data-container{
+        width: 100%;
+        margin-top: 0;
+    }   
+   .data{
+      width: 100%;
+   }
+   .ficheinfos{
+    flex-direction: column;
+    height: auto;
+   }
+
+   .ratings-host{
+    flex-direction: row;
+    justify-content: space-between;
+  }
+    
+    }

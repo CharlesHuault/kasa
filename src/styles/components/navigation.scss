@@ -1,0 +1,38 @@
+.navigation{
+    width: 309px;
+
+    ul{
+        list-style-type: none;
+    }
+
+    a{
+       color: #FF6060; 
+       text-decoration: none;
+    }
+
+    .nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    font-size: 24px; 
+    
+}
+
+
+.nav-active {
+    text-decoration-line: underline; 
+  }
+}
+
+@media screen and (max-width: 400px)
+		{   
+		.navigation
+            .nav{
+            font-size: 12px;
+            text-transform: uppercase;
+            font-weight: 500; 
+            margin-left: 20px;
+          } 
+           
+		}

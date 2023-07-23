@@ -1,0 +1,43 @@
+.tags{   
+     
+ul{
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    margin-bottom: 20px;
+}
+    
+
+li{
+    background-color: #FF6060;
+    border-radius: 10px; 
+    width: auto;
+    min-width: 115px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 25px;
+    text-align: center;
+    color: white;
+    margin-right: 10px;
+    
+}
+}
+
+
+@media screen and (max-width: 400px)
+{   
+
+    .tags{
+        li{
+            min-width: 74px;
+            font-size: 10px;
+            height: 18px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 5px;
+            padding-left: 1.3px;
+            padding-right: 1.3px;
+        }
+     }
+}

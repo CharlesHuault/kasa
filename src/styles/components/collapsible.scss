@@ -1,0 +1,48 @@
+    .bar{
+        display: flex;
+        position: relative;
+        flex-direction: column;
+    }
+
+    .button{
+        width: 32px;
+        position: absolute;
+        top: 10px;
+        transition: transform 0.3s ease;
+    }
+
+    .button.rotated {
+        transform: rotate(-180deg);
+    }
+    
+    .content-parent {
+        height: 0px;
+        overflow: hidden;
+        transition: height ease 0.9s;
+    }
+
+
+    @media screen and (max-width: 400px)
+{
+    .bar{
+        h3{
+            font-size: 13px;
+            margin-left: 10px;
+        }
+        p{
+            font-size: 12px;
+        }
+        .button{
+            left: 303px;
+            display: flex;
+            justify-content: center;
+            top: 8px;
+            }  
+            img{
+                width: 16px;
+              }
+        .aboutbar{
+            height: 32px;
+        }      
+    }
+}

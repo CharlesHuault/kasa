@@ -1,0 +1,43 @@
+.cardslist{
+    width: 100%;
+    height: auto; 
+    border-radius: 25px;
+    background: #F6F6F6; 
+   
+
+    ul{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+    
+    
+
+    li{
+        margin-top: 50px;
+        margin-left: 30px;
+    }
+    }
+}
+
+@media screen and (max-width: 400px)
+		{   
+        .cardslist{
+            width: 100%;
+            height: auto; 
+            border-radius: 25px;
+            background: none;
+            
+
+        ul{
+            list-style-type: none;
+            padding-bottom: 0;
+            padding-left: 0;  
+                
+            
+            li{
+                margin: 0;
+                }
+                }
+        }      
+		}

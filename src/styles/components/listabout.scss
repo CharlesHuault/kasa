@@ -1,0 +1,77 @@
+.listabout{
+    width: 1023px;
+    margin-top: 38px;
+    margin-bottom: 38px;
+    
+    
+    ul{        
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    li{
+       background-color: #F6F6F6;
+       display: inline-block;
+       margin-bottom: 30px;
+       border-radius: 0 0 5px 5px;
+    }
+
+
+    h3{
+        color: white;
+        margin-left: 15px;
+       }
+
+    p{
+        color: #FF6060;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 5px;
+        
+    }
+}
+
+.fiabilité{
+    h3:after{
+        content:"Fiabilité";
+    }
+}
+
+
+.respect{
+    h3:before{
+        content:"Respect";
+    }
+}
+
+.service{
+    h3:before{
+        content:"Service";
+    }
+}
+
+.securite{
+    h3:before{
+        content:"Sécurité";
+    }
+}
+
+
+@media screen and (max-width: 400px)
+		{   
+		.listabout{
+            width: 335px;
+
+            img{
+              width: auto;
+            }
+
+        li{
+            margin-bottom: 20px;
+        }    
+        }      
+		}

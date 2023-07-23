@@ -1,0 +1,43 @@
+.footer{
+    width: 100%;
+    height: 209px;
+    background-color: black;
+    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    p{
+        color: white;
+    }
+
+    img{
+        width: 122px;
+        height: 39.444px; 
+        margin-top: 66px;
+    }
+
+    h3{
+        color: white;
+    }
+}
+
+
+@media screen and (max-width: 400px)
+{   
+	.footer{
+        h3{
+            font-size: 12px;
+            white-space: nowrap;
+            margin-left: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        h3 span {
+            display: block;
+        }  
+
+    }     
+}

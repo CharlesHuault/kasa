@@ -1,0 +1,37 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+h2{
+    line-height: 51px;
+    margin: 0;
+}
+h4{
+    line-height: 26px;
+    margin: 0;
+    color: #FF6060;
+   
+}
+
+
+@media screen and (max-width: 400px)
+{   
+.container{
+    width: 335px;
+    margin-top: 0;
+    height: auto;
+}      
+h2{
+    line-height: normal;
+}
+
+}
