@@ -1,11 +1,13 @@
 .data-container {
     display: flex;
     position: relative;
-    width: 1240px;
+    width: 100%;
     margin-top: 50px;
     justify-content: center;
   }
-
+.data {
+  width: 100%;
+}
   .ficheinfos {
     display: flex;
     margin-top: 30px;
@@ -17,11 +19,11 @@
     flex-direction: column-reverse;
     }
 
-  @media screen and (max-width: 400px)
+  @media screen and (max-width: 767px)
     {   
     .data-container{
         width: 100%;
-        margin-top: 0;
+        margin-top: 27px;
     }   
    .data{
       width: 100%;
@@ -34,6 +36,7 @@
    .ratings-host{
     flex-direction: row;
     justify-content: space-between;
+    flex-wrap: wrap;
   }
     
     }

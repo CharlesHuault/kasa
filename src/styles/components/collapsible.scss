@@ -4,11 +4,19 @@
         flex-direction: column;
     }
 
+    .closedbar{
+        background-color: #FF6060;
+        height: 52px;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+    }
+
     .button{
         width: 32px;
         position: absolute;
-        top: 10px;
         transition: transform 0.3s ease;
+        right: 2%;
     }
 
     .button.rotated {
@@ -19,10 +27,15 @@
         height: 0px;
         overflow: hidden;
         transition: height ease 0.9s;
+        background-color: #F6F6F6;
+        border-radius: 0 0 5px 5px;
+        color: #FF6060;
+    }
+    .content{
+        padding: 20px;
     }
 
-
-    @media screen and (max-width: 400px)
+    @media screen and (max-width: 767px)
 {
     .bar{
         h3{
@@ -32,17 +45,16 @@
         p{
             font-size: 12px;
         }
+        .closedbar{
+            height: 30px;
+        }
         .button{
-            left: 303px;
             display: flex;
             justify-content: center;
             top: 8px;
             }  
             img{
                 width: 16px;
-              }
-        .aboutbar{
-            height: 32px;
-        }      
+              }  
     }
 }

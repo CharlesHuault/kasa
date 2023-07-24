@@ -1,10 +1,12 @@
-.tags{   
+.tags{ 
      
 ul{
     padding-left: 0;
     list-style: none;
     display: flex;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    display: flex;  
+    flex-wrap: wrap;
 }
     
 
@@ -19,19 +21,20 @@ li{
     text-align: center;
     color: white;
     margin-right: 10px;
-    
+    margin-bottom: 10px;
 }
 }
 
 
-@media screen and (max-width: 400px)
+@media screen and (max-width: 767px)
 {   
 
     .tags{
         li{
             min-width: 74px;
             font-size: 10px;
-            height: 18px;
+            height: auto;
+            min-height: 18px;
             display: flex;
             align-items: center;
             justify-content: center;

@@ -3,6 +3,7 @@
 
     ul{
         list-style-type: none;
+        padding: 0;
     }
 
     a{
@@ -13,8 +14,7 @@
     .nav {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    
+    justify-content: space-between;    
     font-size: 24px; 
     
 }
@@ -25,14 +25,23 @@
   }
 }
 
-@media screen and (max-width: 400px)
+@media screen and (max-width: 767px)
 		{   
-		.navigation
+		.navigation{
+          width: 56%;
+
             .nav{
             font-size: 12px;
             text-transform: uppercase;
             font-weight: 500; 
-            margin-left: 20px;
+            width: auto;
+            justify-content: end;
+            flex-wrap: nowrap;
+
+            a{
+              margin-left: 20px;
+            }
           } 
            
 		}
+  }

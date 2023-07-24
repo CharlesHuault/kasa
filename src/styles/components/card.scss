@@ -1,19 +1,19 @@
 .card {
     position: relative;
-    width: 340px;
+    min-width: 300px;
     height: 340px; 
     border-radius: 10px; 
-    background: #000;
+    background: black;
 
     
         h2 {
     position: absolute;
-    width: 300px; 
+    width: 90%; 
     z-index: 1;
     bottom: 20px;
     line-height: 100%;
     margin:  0 20px 0 20px ;
-    color: #FFF;
+    color: white;
     font-size: 18px;
     font-weight: 500; 
 }
@@ -29,10 +29,10 @@
     background-position: center;
 }
 
-@media screen and (max-width: 400px)
+@media screen and (max-width: 767px)
 		{   
 		.card{
-            width: 335px;
+            
             height: 255px;
             margin-bottom: 20px;
         }      

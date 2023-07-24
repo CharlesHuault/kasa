@@ -6,7 +6,7 @@ const Banner = () => {
         <div className='Banner'>
             <h1>
                 Chez vous,
-                <span>partout et ailleurs</span>
+                <span> partout et ailleurs</span>
             </h1>
             <div className='imgbanner1'></div>
         </div>

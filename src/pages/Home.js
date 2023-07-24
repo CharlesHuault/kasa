@@ -5,6 +5,8 @@ import Footer from '../components/Footer.js';
 import Banner from '../components/Bannerhome.js';
 
 
+
+
 const Home = () => {
     return (
         <div >

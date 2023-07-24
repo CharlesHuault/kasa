@@ -4,6 +4,8 @@ import Footer from '../components/Footer';
 import Fichedatacontainer from '../components/Fichedatacontainer';
 
 
+
+
 const Fiche = () => {
     return (
         <div>

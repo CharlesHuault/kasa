@@ -2,7 +2,6 @@ import React from 'react';
 import "../styles/components/fichetags.scss"
 
 
-
 const Fichetags = ({data}) => {
     const {tags} = data;
 

@@ -3,18 +3,8 @@
     justify-content: space-between;
     margin-bottom: 30px;
     .button{
-        left: 530px;
-        top: 10px;
-    }    
-    
-    .content{
-       background-color: #F6F6F6;
-       display: inline-block;       
-       border-radius: 0 0 10px 10px; 
-       width: 100%;
-    }
-
-    
+        right: 2%;
+    } 
 }
 
 h3{
@@ -24,63 +14,39 @@ h3{
 
 
 .description{
-    width: 582px;
-    
-        h3:after{
-            content:"Fiabilité";
-        }  
-
-    
-
-    p{
-        margin-left:20px ;
-        margin-right:20px ;
-        color: #FF6060;
-
-    }
+    width: 47%;
 }
 
-.equipements    {
-    width: 582px;
-
+.equipements    {       
+    width: 47%;
+    .content{
+        padding: 0;
+    }
     ul{
         list-style: none;
         color: #FF6060;
         padding-left: 20px;
+            
     }
-
-    h3:after{
-        content:"Equipements";
-    }  
 }
 
 
-@media screen and (max-width: 400px)
+@media screen and (max-width: 767px)
 {
     .deroulants{
         flex-direction: column;
-        width: 335px;
-
-        .content{      
-            border-radius: 0 0 5px 5px;            
-         } 
         
+        .content{
+            font-size: 12px;
+        }
         h3{
             font-size: 13px;
             margin-left: 10px;
         }
-        .button{
-        left: 303px;
-        display: flex;
-        justify-content: center;
-        top: 8px;
-        }  
+    
         img{
             width: 16px;
-          }
-        p{
-            font-size: 12px;
-        }
+          }   
         ul{
             font-size: 12px;
         }
@@ -89,9 +55,6 @@ h3{
     .description{
         width: 100%;
         margin-bottom: 20px;
-        .aboutbar{
-        height: 32px;
-        }
        
     }
     .equipements{

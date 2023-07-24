@@ -7,14 +7,12 @@ const Fichecollapsible = ({data}) => {
     return (
         <div className='deroulants'>
             <div className='description'>
-            <Collapsible>
-            <p>{data.description}</p>
+            <Collapsible title="Description"content={data.description}>
             </Collapsible>
             </div>
 
             <div className='equipements'>
-            <Collapsible>
-
+            <Collapsible title="Equipements">
             <ul>
             {data.equipments.map((equipment, index) => (
               <li key={index}>{equipment}</li>
