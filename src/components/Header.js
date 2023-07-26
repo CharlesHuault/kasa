@@ -1,12 +1,13 @@
 import React from 'react';
-import Logokasa from './Logokasa';
 import Navigation from './Navigation';
 import "../styles/components/header.scss"
 
 const Header = () => {
     return (
         <div className='header'>
-            <Logokasa/>
+            <div className='logo'>
+            <img src="../LOGO.svg" alt="Logo Kasa" />
+        </div>
             <Navigation/>
         </div>
     );

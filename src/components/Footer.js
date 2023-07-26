@@ -1,13 +1,15 @@
 import React from 'react';
-import "../styles/components/footer.scss"
-import LogoFooter from './LogoFooter';
+import "../styles/components/footer.scss"   
 import Textfooter from './Textfooter';
 
 
 const Footer = () => {
     return (
         <footer className='footer'>
-            <LogoFooter/>
+            <div className='logofooter'>
+            <img src="../LOGOblc.svg" alt="Logo kasa" />
+        </div>
+
             <Textfooter/>
         </footer>
     );
