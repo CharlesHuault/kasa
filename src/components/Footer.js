@@ -7,8 +7,8 @@ const Footer = () => {
     return (
         <footer className='footer'>
             <div className='logofooter'>
-            <img src="../LOGOblc.svg" alt="Logo kasa" />
-        </div>
+                <img src="../LOGOblc.svg" alt="Logo kasa" />
+            </div>
 
             <Textfooter/>
         </footer>

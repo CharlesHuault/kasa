@@ -6,8 +6,8 @@ const Header = () => {
     return (
         <div className='header'>
             <div className='logo'>
-            <img src="../LOGO.svg" alt="Logo Kasa" />
-        </div>
+                <img src="../LOGO.svg" alt="Logo Kasa" />
+            </div>
             <Navigation/>
         </div>
     );
