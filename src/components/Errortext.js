@@ -11,7 +11,7 @@ const Errorpage = () => {
             </div>
             <div className='oups'>
                 Oups! La page que 
-                <span>vous demandez n'existe pas.</span>
+                <span> vous demandez n'existe pas.</span>
             </div>
             <NavLink to="/" className='link'>
                 Retourner sur la page d’accueil

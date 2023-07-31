@@ -1,7 +1,7 @@
 import React from 'react';
 import "../styles/components/bannerhome.scss"
 
-const Banner = () => {
+const Bannerhome = () => {
     return (
         <div className='Banner'>
             <h1>
@@ -15,4 +15,4 @@ const Banner = () => {
     );
 };
 
-export default Banner;
+export default Bannerhome;

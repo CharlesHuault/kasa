@@ -2,7 +2,7 @@ import React from 'react';
 import Header from '../components/Header.js';
 import List from '../components/List.js';
 import Footer from '../components/Footer.js';
-import Banner from '../components/Bannerhome.js';
+import Bannerhome from '../components/Bannerhome.js';
 
 
 
@@ -12,7 +12,7 @@ const Home = () => {
         <div >
             <div className='body'>
                 <Header/>
-                <Banner/>
+                <Bannerhome/>
                 <List/>
             </div>
             <Footer/>

@@ -7,7 +7,7 @@ const Fichehost = ({data}) => {
     const hostNameElements = hostNameArray.map((namePart, index) => (
       <React.Fragment key={index}>
         {namePart}
-        {index < hostNameArray.length - 1 && <br />} {/* Add a line break if it's not the last part */}
+        {index < hostNameArray.length - 1 && <br />}
       </React.Fragment>
     ));
 

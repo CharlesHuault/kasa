@@ -1,6 +1,5 @@
 import React from 'react';
 import "../styles/components/footer.scss"   
-import Textfooter from './Textfooter';
 
 
 const Footer = () => {
@@ -9,8 +8,10 @@ const Footer = () => {
             <div className='logofooter'>
                 <img src="../LOGOblc.svg" alt="Logo kasa" />
             </div>
-
-            <Textfooter/>
+            <h3>
+                © 2020 Kasa. All 
+                <span>rights reserved</span>
+            </h3>
         </footer>
     );
 };
