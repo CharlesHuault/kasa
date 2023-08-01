@@ -1,5 +1,6 @@
 import React from 'react';
 import "../styles/components/fichetags.scss"
+import Tag from './Tag';
 
 
 const Fichetags = ({data}) => {
@@ -7,11 +8,9 @@ const Fichetags = ({data}) => {
 
     return (
             <div className='tags'>
-                <ul>
-                {tags.map((tag, index) => (
-                <li key={index}>{tag}</li>
-                ))}
-                </ul>
+            {tags.map((tag, index) => (
+                   <Tag key={index} tag={tag}/>
+               ))}
             </div>
     );
 };
